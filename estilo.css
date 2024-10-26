@@ -116,7 +116,7 @@ header{
 
 /*-----------------SOBRE----------------------*/
 #sobre{
-    background-image: url(/images/SOBRE/todos.jpg);
+    background-image: url(images/SOBRE/todos.jpg);
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
