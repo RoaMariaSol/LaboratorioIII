@@ -1056,6 +1056,19 @@ img {
 }
 
 
+/*--------PERSONAJES.HTML---------*/
+.body-personajes{
+    background-color: black;
+}
+
+.body-personajes h1{
+    color: #E9D978;
+    font-size: 80px;
+    text-align: center;
+}
+
+
+
 
 /*--------------------FOOTER---------------------*/
 footer{
