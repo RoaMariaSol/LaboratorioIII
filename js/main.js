@@ -14,3 +14,5 @@ cerrar.addEventListener("click", () => {
 cerrarFuera.addEventListener("click", () => {
     nav.classList.remove("visible");
 })
+
+
