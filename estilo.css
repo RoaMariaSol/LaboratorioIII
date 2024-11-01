@@ -31,7 +31,7 @@ header a{
 header h2{
     color: #E9D978;
     font-weight: 100;
-    margin-left: -400px;
+    margin-left: -250px;
 }
 
 .nav-list{
@@ -685,7 +685,7 @@ img {
 
 /*-----------------------------------XOXO-------------------------*/
 .body-xoxo{
-    background-image: url(images/XOXO/intento.jpg);
+    background-image: url(images/XOXO/xoxo2.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -789,6 +789,135 @@ img {
     align-items: center;
     font-size: 20px;
 }
+
+
+/*-----------CONTACTO.HTML----------*/
+
+.body-contacto {
+    background-color: black;
+}
+.body-contacto .container {
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2,50%);
+    padding: 20px;
+    width: 1000px;
+    margin-left: 180px;
+}
+
+.body-contacto img{
+    width: 85%;
+}
+
+.body-contacto .box-info {
+    color:#fff;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.body-contacto .box-info > h1 {
+    text-align: left;
+    font-size: 60px;
+    color: #E9D978;
+}
+
+.body-contacto .data {
+    display: flex;
+    flex-direction: column;
+    gap:25px
+}
+
+.body-contacto .data > p {
+    font-size: 1.2rem;
+}
+
+.body-contacto form {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    gap:15px;
+}
+
+.body-contacto .input-box {
+    position:relative;
+}
+
+.body-contacto .input-box > input {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    outline:none;
+    background: rgba(255 255 255 / .1);
+    border:3px solid transparent;
+    letter-spacing: 1px;
+    transition:.3s;
+    color:#fff;
+    
+}
+
+.body-contacto .input-box > input::placeholder,
+.body-contacto .input-box > textarea::placeholder {
+    color:#a3a3a3;
+    
+}
+
+.body-contacto .input-box > input:focus::placeholder,
+.body-contacto .input-box > textarea:focus::placeholder {
+    color:transparent;
+}
+
+.body-contacto .input-box > input:focus,
+.body-contacto .input-box > textarea:focus {
+    border-bottom:3px solid #E9D978;
+    animation: shake .2s;
+}
+
+.body-contacto .input-box > textarea {
+    width: 100%;
+    height: 130px;
+    padding: 10px;
+    background: rgba(255 255 255 / .1);
+    border:3px solid transparent;
+    letter-spacing: 1px;
+    outline: none;
+    transition:.3s;
+    color:#fff;
+    letter-spacing: 1.5px;
+}
+
+
+.body-contacto .input-box > i {
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color:rgba(255 255 255 / .3);
+    transition: .3s;
+}
+
+.body-contacto .input-box > input:focus ~ i {
+    color:#E9D978;
+}
+
+.body-contacto form > button {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background: #E9D978;
+    color:#fff;
+    border:none;
+    transition: .1s;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.body-contacto form > button:hover,
+.body-contacto .links > a:hover {
+    background: #bdb162;
+}
+
 
 
 
@@ -1173,7 +1302,9 @@ footer p{
     font-size: 2rem;
     color: #E9D978;
 }
-
+.frase button{
+    display: none;
+}
 
 
 /*-----galeria.html-----*/
@@ -1496,7 +1627,7 @@ img {
 
 /*--------------------------XOXO-------------------------*/
 .body-xoxo{
-    background-image: url(images/XOXO/intento.jpg);
+    background-image: url(images/XOXO/xoxo2.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -1602,8 +1733,32 @@ img {
     align-items: center;
     font-size: 15px;
 }
+     /*--------CONTACTO.HTML---------*/
+     .body-contacto .container  {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:30px;
+        margin-left: 15px;
+    }
 
+    .box-info {
+        gap:15px;
+    }
 
+    .box-info > h1 {
+        font-size: 1.5rem;
+    }
 
+    .box-info img{
+        margin-left: 25px;
+    }
+
+    .body-contacto form{
+
+        width: 95%;
+    }
 
 }
