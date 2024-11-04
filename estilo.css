@@ -545,7 +545,6 @@ img {
 }
 
 .body-serena .columna3 p{
-    text-align: center;
     font-size: 1.5em;
     margin-top: 50px;
 }
@@ -580,7 +579,7 @@ img {
 }
 
 .body-blair .mitad1 p{
-    text-align: center;
+    text-align: justify;
     font-size: 1.5rem;
     padding-right: 25px;
 }
@@ -623,7 +622,7 @@ img {
 }
 
 .nate-mayor p{
-    text-align: center;
+    text-align: justify;
     font-size: 1.3rem;
     width: 85%;
     margin-left: 55px;
@@ -662,7 +661,7 @@ img {
     width: 75%;
 }
 .mitad-chuck-1 p{
-    text-align: center;
+    text-align: justify;
     font-size: 1.3rem;
     width: 70%;
     margin-top: 80px;
@@ -1308,6 +1307,9 @@ footer p{
 
 
 /*-----galeria.html-----*/
+.body-galeria{
+    background-color: black;
+}
 .galeria-main{
     background-color: black;
     padding-top: 0px;
@@ -1442,7 +1444,7 @@ img {
 }
 
 .columna3 p{
-    text-align: center;
+    text-align: justify;
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 80px;
@@ -1490,7 +1492,7 @@ img {
 
 
 .body-blair .mitad1 p{
-    text-align: center;
+    text-align: justify;
     font-size: 1rem;
     width: 100%;
     margin-bottom: -40px;
@@ -1544,7 +1546,7 @@ img {
 }
 
 .nate-mayor p{
-    text-align: center;
+    text-align: justify;
     font-size: 1rem;
     width: 85%;
     margin-left: 0px;
@@ -1593,7 +1595,7 @@ img {
     width: 65%;
 }
 .mitad-chuck-1 p{
-    text-align: center;
+    text-align: justify;
     font-size: 1rem;
     width: 75%;
     margin-top: 0px;
